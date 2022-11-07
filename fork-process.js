@@ -7,7 +7,7 @@ app.get('/first',(req,res) => {
    const sum = longTimeTaking()
    res.send({sum:sum})  // 
 })
-//coz it's start on  the same process the time and all are same async call
+
 //(takes around 10.088745682 s)
 // this is coz it's running on the same process that's the reason 
 // the time taken is same
