@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node fork-process.js"
+    "start": "node cluster-module.js"
   },
   "keywords": [],
   "author": "",
